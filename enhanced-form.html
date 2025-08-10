@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunrise Coffee Shop</title>
+</head>
+<body>
+
+  <header>
+    <h1>Sunrise Coffee Shop</h1>
+    <p>Welcome to Sunrise Coffee Shop — your daily dose of fresh coffee and cozy vibes!</p>
+  </header>
+
+  <section>
+    <h2>Our Popular Coffees</h2>
+    <ul>
+      <li>Espresso</li>
+      <li>Cappuccino</li>
+      <li>Latte</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Coffee Pricing</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Coffee Type</th>
+          <th>Size</th>
+          <th>Price (ETB)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Espresso</td><td>Small</td><td>50</td></tr>
+        <tr><td>Cappuccino</td><td>Medium</td><td>100</td></tr>
+        <tr><td>Latte</td><td>Large</td><td>200</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Cup of coffee on wooden table" width="600" />
+  </section>
+
+  <section>
+    <h2>Join Our Newsletter</h2>
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Personal Info</legend>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="John Doe" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="email" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="favorite-coffee">Favorite Coffee:</label>
+        <select id="favorite-coffee" name="favorite-coffee" required>
+          <option value="">Select</option>
+          <option value="espresso">Espresso</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="latte">Latte</option>
+        </select>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4" minlength="10" placeholder="Tell us what you love about coffee..."></textarea>
+      </fieldset>
+
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+</body>
+</html>
